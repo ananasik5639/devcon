@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <!-- Connect tags -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stranger Things | Main</title>
+
+    <!-- Connect fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    <!-- Preload images  -->
+    <link rel="preload" as="image" href="../src/assets/back_for_mobile.png" media="(max-width: 768px)">
+    <link rel="preload" as="image" href="../src/assets/back_for_tablet.png" media="(min-width: 769px) and (max-width: 1024px)">
+    <link rel="preload" as="image" href="../src/assets/back_for_dekstop.png" media="(min-width: 1025px)">
+
+    <!-- Connect Material Icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+  </head>
+  <body>
+    <!-- Conteiner for react -->
+    <div id="root"></div>
+
+    <!-- This script is an entry to React-app.
+         Vite would automatically create file src/main.jsx and add here. -->
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
